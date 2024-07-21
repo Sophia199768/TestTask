@@ -13,5 +13,5 @@ GET http://localhost:8080/api/files/34
 ###
 
 
-GET http://localhost:8080/api/files/?pageSize=3
+GET http://localhost:8080/api/files/?pageSize=3&page=2&ascending=true
 ###
