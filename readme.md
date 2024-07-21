@@ -1,6 +1,6 @@
 1) Описание решения:
    1. Реализовавна модель данных для хранения информации о файлах. (File в папке Entity)
-   2.   Реализован маппер и pojo-объекты. (В папках mapper и requestsAndResponses)
+   2.   Реализован маппер и dto. (В папках mapper и requestsAndResponses)
    3.    Потом реализизован контроллер для обработки http-запросов. (Controller в папке Controller).
            Методы:
                public GetFileResponse getFile(@PathVariable Long id); 
