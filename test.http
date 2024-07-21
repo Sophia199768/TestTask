@@ -1,0 +1,17 @@
+POST http://localhost:8080/api/files/create
+Content-Type: application/json
+
+{
+  "title": "NewTitle",
+  "content": "NewContext",
+  "description": "NewDescription",
+  "creationDate": "2024-07-19"
+}
+###
+
+GET http://localhost:8080/api/files/34
+###
+
+
+GET http://localhost:8080/api/files/?pageSize=3
+###
